@@ -1,0 +1,72 @@
+﻿@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Antiforgery
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my Shotener Link Website </h1>
+</div>
+
+<hr />
+
+<div class="container mt-4">
+    <h3>Shorten a URL</h3>
+    <form asp-action="Index" method="post">
+        <div class="form-group">
+            <label for="originalUrl">Enter Long URL:</label>
+            <input type="url" class="form-control" name="originalUrl" id="originalUrl" required />
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Shorten</button>
+    </form>
+
+    @if (ViewBag.ShortUrl != null)
+    {
+        <div class="alert alert-success mt-3">
+            Short URL created: <a href="@ViewBag.ShortUrl" target="_blank">@ViewBag.ShortUrl</a>
+        </div>
+    }
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <hr />
+        <h4>Your Recent Shortened URLs</h4>
+        @if (ViewBag.RecentUrls != null && ViewBag.RecentUrls.Count > 0)
+        {
+            <table class="table table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <th>Short Link</th>
+                        <th>Original URL</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.RecentUrls)
+                    {
+                        <tr>
+                            <td>
+                                <a href="/@item.ShortCode" target="_blank">/@item.ShortCode</a>
+                            </td>
+                            <td>
+                                <a href="@item.OriginalUrl" target="_blank">@item.OriginalUrl</a>
+                            </td>
+                            <td class="text-nowrap">
+                                <div class="d-flex gap-2">
+                                    <a asp-controller="Url" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                    <form asp-action="Delete" asp-controller="Url" method="post" asp-route-id="@item.Id" onsubmit="return confirm('Are you sure you want to delete this short link?');">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="text-muted">You haven’t created any short URLs yet.</p>
+        }
+    }
+</div>
