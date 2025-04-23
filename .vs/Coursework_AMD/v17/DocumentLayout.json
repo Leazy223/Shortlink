@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\AMD\\Coursework_AMD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,11 +41,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Coursework_AMD\\Views\\Home\\Index.cshtml",
@@ -54,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UrlController.cs",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\UrlController.cs",
               "RelativeDocumentMoniker": "Coursework_AMD\\Controllers\\UrlController.cs",
@@ -63,20 +67,19 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T02:07:22.244Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbInitializer.cs",
-              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
-              "RelativeDocumentMoniker": "Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
-              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
-              "RelativeToolTip": "Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:34:09.469Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\appsettings.json",
+              "RelativeDocumentMoniker": "Coursework_AMD\\appsettings.json",
+              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\appsettings.json",
+              "RelativeToolTip": "Coursework_AMD\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T08:31:28.322Z",
               "EditorCaption": ""
             },
             {
@@ -85,7 +88,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbInitializer.cs",
+              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
+              "RelativeDocumentMoniker": "Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
+              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
+              "RelativeToolTip": "Coursework_AMD\\Data\\ApplicationDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T06:34:09.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "dbo.UrlMappings.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.UrlMappings.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.UrlMappings.sql",
@@ -94,20 +109,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Coursework_AMD\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Coursework_AMD\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwGYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T02:01:55.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Views\\Url\\Edit.cshtml",
               "RelativeDocumentMoniker": "Coursework_AMD\\Views\\Url\\Edit.cshtml",
@@ -119,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Coursework_AMD\\Data\\ApplicationDbContext.cs",

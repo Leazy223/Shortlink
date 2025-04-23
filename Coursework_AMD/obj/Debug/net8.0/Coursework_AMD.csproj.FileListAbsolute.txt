@@ -144,3 +144,4 @@ E:\AMD\Coursework_AMD\Coursework_AMD\obj\Debug\net8.0\refint\Coursework_AMD.dll
 E:\AMD\Coursework_AMD\Coursework_AMD\obj\Debug\net8.0\Coursework_AMD.pdb
 E:\AMD\Coursework_AMD\Coursework_AMD\obj\Debug\net8.0\Coursework_AMD.genruntimeconfig.cache
 E:\AMD\Coursework_AMD\Coursework_AMD\obj\Debug\net8.0\ref\Coursework_AMD.dll
+E:\AMD\Coursework_AMD\Coursework_AMD\obj\Debug\net8.0\Coursework_AMD.sourcelink.json

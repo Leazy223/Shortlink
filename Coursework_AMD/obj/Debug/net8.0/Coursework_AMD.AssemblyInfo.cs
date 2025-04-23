@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coursework_AMD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ba8d54ea1e2075a3d1761c584dd70f41f2c3db2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coursework_AMD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coursework_AMD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
