@@ -24,7 +24,7 @@ namespace Coursework_AMD.Controllers
         {
             List<UrlMapping> urls;
 
-            if (User.Identity.IsAuthenticated)
+            if ((User?.Identity != null && User.Identity.IsAuthenticated))  
             {
                 var userId = _userManager.GetUserId(User);
                 urls = _context.UrlMappings
@@ -54,7 +54,7 @@ namespace Coursework_AMD.Controllers
             }
 
             string shortCode = GenerateShortCode();
-            string? userId = User.Identity.IsAuthenticated ? _userManager.GetUserId(User) : null; // Get user ID if authenticated
+            string? userId = (User?.Identity != null && User.Identity.IsAuthenticated) ? _userManager.GetUserId(User) : null; // Get user ID if authenticated
 
             var mapping = new UrlMapping
             {

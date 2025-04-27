@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\AMD\\Coursework_AMD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\data\\migrations\\20250423085641_dbcloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\data\\migrations\\20250423085641_dbcloud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\data\\migrations\\20250423085641_dbcloud.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\data\\migrations\\20250423085641_dbcloud.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\controllers\\urlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\controllers\\urlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.UrlMappings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
@@ -14,19 +30,11 @@
       "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\controllers\\urlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\controllers\\urlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|e:\\amd\\coursework_amd\\coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A34781-7C1E-4FC7-AC9F-A1630D2A54DA}|Coursework_AMD\\Coursework_AMD.csproj|solutionrelative:coursework_amd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,11 +44,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Coursework_AMD\\Views\\Home\\Index.cshtml",
@@ -49,8 +57,7 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAswDgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-18T02:24:35.312Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -60,7 +67,7 @@
               "RelativeDocumentMoniker": "Coursework_AMD\\Controllers\\UrlController.cs",
               "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\UrlController.cs",
               "RelativeToolTip": "Coursework_AMD\\Controllers\\UrlController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAswF4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAASwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T02:07:22.244Z",
               "IsPinned": true,
@@ -68,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\appsettings.json",
               "RelativeDocumentMoniker": "Coursework_AMD\\appsettings.json",
@@ -86,17 +93,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250423085641_dbcloud.cs",
+              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.cs",
+              "RelativeDocumentMoniker": "Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.cs",
+              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.cs",
+              "RelativeToolTip": "Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:52:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.UrlMappings [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.UrlMappings.sql",
-              "ToolTip": "dbo.UrlMappings [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-26T13:39:39.382Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Coursework_AMD\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Coursework_AMD\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAawC0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:01:55.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250423085641_dbcloud.Designer.cs",
+              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.Designer.cs",
+              "RelativeDocumentMoniker": "Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.Designer.cs",
+              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.Designer.cs",
+              "RelativeToolTip": "Coursework_AMD\\Data\\Migrations\\20250423085641_dbcloud.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:53:06.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.UrlMappings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.UrlMappings.sql",
+              "ToolTip": "dbo.UrlMappings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-27T02:37:20.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Program.cs",
               "RelativeDocumentMoniker": "Coursework_AMD\\Program.cs",
@@ -104,25 +150,11 @@
               "RelativeToolTip": "Coursework_AMD\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T11:39:14.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T11:39:14.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Coursework_AMD\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\AMD\\Coursework_AMD\\Coursework_AMD\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Coursework_AMD\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T02:01:55.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Coursework_AMD/True/SqlTable/dbo.AspNetUsers.sql",

@@ -24,7 +24,7 @@ namespace Coursework_AMD.Controllers
 
         public IActionResult History()
         {
-            var userId = User.Identity.IsAuthenticated ? User.Identity.Name : null;
+            var userId = (User?.Identity != null && User.Identity.IsAuthenticated) ? User.Identity.Name : null;
             if (userId == null) return RedirectToAction("Login", "Account");
 
             var urls = _context.UrlMappings.Where(u => u.UserId == userId).ToList();
@@ -35,10 +35,10 @@ namespace Coursework_AMD.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            if (!User.Identity.IsAuthenticated)
+            if (!(User?.Identity != null && User.Identity.IsAuthenticated))
                 return Unauthorized();
 
-            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var userId = User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
             var mapping = _context.UrlMappings.FirstOrDefault(u => u.Id == id && u.UserId == userId);
 
@@ -55,10 +55,10 @@ namespace Coursework_AMD.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            if (!User.Identity.IsAuthenticated)
+            if (!(User?.Identity != null && User.Identity.IsAuthenticated))
                 return Unauthorized();
 
-            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var userId = User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
             var mapping = _context.UrlMappings.FirstOrDefault(u => u.Id == id && u.UserId == userId);
 
             if (mapping == null)
@@ -72,10 +72,10 @@ namespace Coursework_AMD.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, string originalUrl, string shortCode)
         {
-            if (!User.Identity.IsAuthenticated)
+            if (!(User?.Identity != null && User.Identity.IsAuthenticated))
                 return Unauthorized();
 
-            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            var userId = User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
             var mapping = _context.UrlMappings.FirstOrDefault(u => u.Id == id && u.UserId == userId);
 
             if (mapping == null)
